@@ -12,6 +12,7 @@
 ## Resources
 * http://ctfs.github.io/resources/ - Introduction to common CTF techniques such as cryptography, steganography, web exploits (Incomplete)
 * https://trailofbits.github.io/ctf/forensics/ - Tips and tricks relating to typical CTF challenges/scenarios
+* https://tadeuszwachowski.github.io/CTFwriteups/ctflearn/ - CTF Learn answers/solutions
 
 ## Blog site
 * https://dev.to/atan/what-is-ctf-and-how-to-get-started-3f04
@@ -53,6 +54,11 @@
 * practise flag
 * Base 2 2 the 6
 * character encoding
+* Where can my robot go
+* Wikipedia
+* Morse code
+* Reverse polarity
+* Hextrodinary
 
 
 
