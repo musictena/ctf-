@@ -63,7 +63,7 @@
 
 ## WVWP
 - Uses BURP suite and XAMPP
-- Cross site scripting (XSS)
+- Reflected Cross site scripting (XSS)
   <br>EASY<br>
   ``<script>alert("asd")</script>``
   <br>
@@ -80,5 +80,8 @@
   - genuinely impossible
 - Bruteforce 
   <br>EASY</br>
+- DOM XSS
+  <br> EASY <br>
+  ``default=Japanese (any text)``
   
 
